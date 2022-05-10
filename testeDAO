@@ -1,0 +1,26 @@
+package br.com.teste.dao;
+
+import br.com.teste.factory.ConnectionFactory;
+
+public class TesteDAO {
+
+	// CRUD CREATE READ UPDATE E DELETE
+
+	public void save (CLiente cliente)
+	{
+	 String sql = "INSERT INTO conteiners(Num_Conteiner, Tipo_Conteiner, Status, Categoria") VALUES ()?,?,?,?);
+	 
+	 Connection con = null 
+	PreparedStatement pstm = null;
+	 try {
+		 
+		 //criando a conexão com o BDD
+		 con = ConnectionFactory.createConnectionToMySQL();
+		 
+		 pstm = con.preparedStatement(sql);
+		 pstm.setString( )
+		 
+		 	 }
+	}
+}
+
